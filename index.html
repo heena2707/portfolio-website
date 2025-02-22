@@ -1,0 +1,225 @@
+
+
+                <!----PROJECT NAME :- PORTFOLIO WEBSITE*/---->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5385ec79d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+<div class="container">
+    <nav>
+         
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hiii, I'm  <span> Heena </span><br> from India </h1>
+    </div>
+</div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/nicole-wolf-NdFREMS5P08-unsplash.jpg">
+            </div>
+
+            <div class="about-col-2">
+            <h1 class="sub-tittle">About Me</h1>
+
+            <p>Hello! My name is Heena, and I’m a professional app developer with a deep passion for crafting innovative, functional, and user-friendly applications. With experience in designing and developing mobile and web apps, I specialize in transforming ideas into seamless digital experiences.
+
+                My journey in software development has been shaped by a commitment to continuous learning and a focus on staying at the forefront of technology. I thrive on solving complex challenges, optimizing performance, and delivering solutions that exceed user expectations. Whether it’s coding, debugging, or deploying apps, I find great satisfaction in every step of the development process.
+                
+                In addition to technical expertise, I value collaboration and clear communication, working closely with clients, designers, and other developers to ensure that every project is a success. My goal is to create applications that not only meet functional requirements but also provide intuitive and enjoyable user experiences.
+                
+                When I’m not coding, I’m often exploring new tools and frameworks to enhance my skills or staying updated on the latest trends in the tech industry. I’m always excited to take on new challenges and contribute to meaningful projects that make a difference. 
+                
+                If you’re looking for someone who can bring dedication, creativity, and technical proficiency to app development, I’m your go-to person!
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+            </div>
+
+<!-- Skill Section -->
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Javafullstack</span><br>Server side part of web applications</li>
+                    <li><span>UI/UX Design</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/ioS apps</li>
+                </ul>
+             </div>
+ <!-- Experience Section -->
+             <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021-current</span><br>UI/UX Design Training at ET INstitute</li>
+                    <li><span>2019-2021</span><br>Team lead at StarApp LLc.</li>
+                    <li><span>2017-2019</span><br>UI/UX Design Execution at coin Digital LTd.</li>
+                    <li><span>2016-2017</span><br>Intership at ekart ecommerce.</li>
+                </ul>
+                </div>
+ <!-- Education Section -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2016</span><br>Team lead at StarApp LLc.</li>
+                        <li><span>2014</span><br>UI/UX Design Execution at coin Digital LTd.</li>
+                        <li><span>2016-2017</span><br>Intership at ekart ecommerce.</li>
+                    </ul>
+                </div>
+            
+            </div>
+            </div>
+            </div>
+            </div>
+
+
+<!-- Services Section -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle"> My Services </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Javafullstack </h2>
+                <p>Here is the description place</p>
+                <a href="#">Learn More</a>
+            </div>
+        <div>
+    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>here is the description place</p>
+                    <a href="#">Learn More</a>
+                </div> 
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2> App Development </h2>
+                <p>here is the description place</p>
+                <a href="#">Learn More</a>
+                </div>
+        </div>
+    </div>
+    </div>
+
+<!-- Portfolio Section -->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My work</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="./images/work-1.png">
+        <div class="layer">
+                <h3> Social Media App</h3>
+                <p>The app connects you to the talented
+                    people around the world . Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div> 
+            </div>
+            
+            <div class="work">
+                <img src="./images/work-2.png">
+                <div class="layer">
+                    <h3> Music App</h3>
+                    <p>The app connects you to the talented
+                    people around the world . Download it from play store</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>    
+                </div> 
+            </div>     
+            <div class="work">
+            <img src="./images/work-3.png">
+            <div class="layer">
+                <h3> online shopping  App</h3>
+                <p>The app connects you to the talented
+                people around the world . Download it from play store</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>  
+            </div>
+            </div>
+
+</div>
+<a href="#" class="btn">See More</a>
+</div>
+</div>
+<!-- Contact Section  -->
+<div id="contact">
+    <div class="container">
+    <div class="row">
+
+        <div class="left-side">
+            <h1 class="sub-title">Contact Me</h1> 
+            <p> <i class="fa-solid fa-share"></i>shahheena2704@gmail.com</p>
+            <p> <i class="fa-solid fa-phone-volume"></i>8888443213</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"> <i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com/"> <i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download  class="btn btn2">Download CV</a>
+        </div>
+
+        <div class="right-side">
+
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name"required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div> 
+    </div>
+    <div class="copy-right">
+        <p> @copyright Made with <i class="fa-solid fa-heart"></i>By Heena shah</p>
+</div>
+
+<script src="./app.js"></script>
+
+
+
+<!-- <script>
+const scriptURL =' https://script.google.com/macros/s/AKfycbzB2ylAUYmnwFyC5Ucn-Ob72yGiXu1SQj_tA6q48AAvEAAuOe5PH7LLjU_otvacX05C/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+e.preventDefault() 
+fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML="message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+</script> -->
+</body>
+</html>
